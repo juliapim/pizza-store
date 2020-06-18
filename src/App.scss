@@ -2,16 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -23,12 +14,21 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+main{
+  display: flex;
+  
+}
+.pizzas-list{
+  display: flex;
+  width: 50vw;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid black;
+  .image-pizza{
+    width: 20vw;
+  }
+  button{
+    margin: 10px;
+  }
 }
 
-main {
-  min-height: 70vh;
-  padding: 5vh 10vw;
-}
